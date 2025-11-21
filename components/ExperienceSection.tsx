@@ -16,6 +16,7 @@ export default function ExperienceSection() {
             key={project.name}
             role={project.role}
             name={project.name}
+            url={project.url}
             location={project.location}
             date={project.date}
             description={project.description}
@@ -29,6 +30,7 @@ export default function ExperienceSection() {
 function ExperienceCard({
   role,
   name,
+  url,
   location,
   date,
   description,
@@ -36,6 +38,7 @@ function ExperienceCard({
   role: string;
   name: string;
   location: string;
+  url: string;
   date: string;
   description: string;
 }) {
@@ -76,7 +79,14 @@ function ExperienceCard({
           <div>
             <h1 className="text-sm font-medium lowercase">{role}</h1>
             <p className="text-xs text-muted-foreground lowercase">
-              {name} • {location}
+              <a
+                href={url}
+                target="_blank"
+                className="text-blue-500 underline-offset-4 hover:underline hover:text-blue-600 transition-all cursor-pointer"
+              >
+                {name}
+              </a>{" "}
+              • {location}
             </p>
           </div>
           <span className="text-[0.70em] rounded-md px-2 py-1 text-gray-400">

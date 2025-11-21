@@ -14,15 +14,17 @@ export const CURRENT_PROJECTS = [
   {
     role: "Full Stack Intern",
     name: "Flib",
+    url:"https://www.flib.store/",
     location: "Gurgaon",
     date: "June 2024 - July 2024",
     description: "Engineered the Flib web app, focusing on frontend architecture and performance optimization. Enhanced SEO and load times with image optimization and lazy loading. Tech stack: Next.js 14, TypeScript, Hygraph, Tailwind CSS, Framer Motion.",
   },
   {
-    role: "Frontend Intern",
-    name: "Olympiad Success",
+    role: "Sde Intern",
+    name: "Spyne.ai",
+    url:"https://www.spyne.ai/",
     location: "Gurgaon", 
-    date: "June 2023 - July 2023",
+    date: "March 2025 - Present",
     description: "Identified and resolved website issues, including 10 broken links and formatting. Collaborated cross-functionally in developing compelling service-focused content that improved user understanding and conversion rates by 20%.",
   },
 ];
