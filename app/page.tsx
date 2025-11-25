@@ -6,6 +6,7 @@ import { PROFILE, SOCIAL_LINKS} from '@/constants'
 import MaxWidthWrapper from '@/components/MaxWidth'
 import Particles from "@/components/ui/particles"
 import ExperienceSection from "@/components/ExperienceSection"
+import NowPlaying from "@/components/NowPlaying"
 
 // Dynamically import components that are not needed on initial load
 const DynamicProjectsSection = dynamic(() => import('@/components/ProjectsSection'))
@@ -110,6 +111,11 @@ export default function Home() {
          
 
         </div>
+         <section>
+          <br />
+       
+        <NowPlaying />
+      </section>
         <Particles
         className="absolute inset-0 min-h-screen"
         quantity={100}
