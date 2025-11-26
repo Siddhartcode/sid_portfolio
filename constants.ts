@@ -7,7 +7,7 @@ export const PROFILE = {
 export const SOCIAL_LINKS = [
   { name: "GitHub", url: "https://github.com/SiddharthRana9?tab=repositories", icon: "Github" },
   { name: "Email", url: "mailto:siddharththerana@gmail.com", icon: "Mail" },
-  { name: "FileUser", url: "https://www.canva.com/design/DAGaBFSB9EM/dOdNh-FlRuTMods3Y7w89g/view?utm_content=DAGaBFSB9EM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h011ac678fb", icon: "FileUser" },
+  { name: "FileUser", url: "/files/Resume.pdf", icon: "FileUser" },
 ]
 
 export const CURRENT_PROJECTS = [
